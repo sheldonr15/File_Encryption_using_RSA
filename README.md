@@ -22,3 +22,8 @@ Once the file is encrypted, the program requires the user to remember just the d
   - It doesn't modify the file, instead it displays decrypted contents on the terminal thus keep the file encrypted.
   - NOTE : file should be in this same directory.
   
+---
+This folder also has two .txt files. One, `plaintext.txt` and another, `ciphertext.txt`.  
+`plaintext.txt`'s encrypted version looks like `ciphertext.txt`.  
+Try to decrypt `ciphertext.txt` using `Decryptor.py` with d = 13879 and N = 2765669.  
+Or Try to encrypt `plaintext.txt` using `Encryptor.py` with e = 199 and N = 2765669.
