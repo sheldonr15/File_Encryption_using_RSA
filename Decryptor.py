@@ -32,7 +32,7 @@ if filename != None:
         decryptor = getpass.getpass(prompt="[PASSWORD won't display what you're writing] Enter 'd' or 'decryptor' : ")
         N = int(input("Enter 'N' from 'modN' : "))
 
-        with open("new.txt", "r") as fr:
+        with open(filename, "r") as fr:
             sentence = fr.read()
 
             # Putting all values from the txt file as individual list indices.
